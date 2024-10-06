@@ -1,0 +1,225 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Stuffs/Roboto/Roboto-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Stuffs/Roboto/Roboto-Italic.ttf) format('truetype');
+    font-weight: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Stuffs/Roboto/Roboto-Regular.ttf) format('truetype');
+    font-weight: normal;
+} 
+
+body{
+    background: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.HeaderSpace{
+    background: rgb(32, 41, 54);
+    text-align: center;
+    color: white;
+}
+
+.HeaderSpace h4{
+    padding-top: 2%;
+}
+
+.HeaderLinks{
+    font-size: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    gap: 2%;   
+    margin: 1%;
+}
+
+.HeaderLinks h5{
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.WebsiteAwesome{
+    display: flex;
+    padding-top: 3%;
+}
+
+.AwesomeText {
+    width: 25%;
+    text-align: left;
+    padding-left: 16%;
+    padding-right: 9%;
+    padding-bottom: 5%;
+}
+
+.AwesomeText h2{
+    letter-spacing: 1px;
+    font-style: bold;
+    font-weight: bolder; 
+}
+
+.AwesomeText p{
+    font-size: 80%;
+    opacity: 90%;
+    
+}
+
+hr.divider{
+    opacity: 10%;
+}
+
+.SignUp {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #3f83ff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.PlaceHolder {
+    background-color: #70747c;
+    color:white;
+    width: 340px;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    text-align: right;
+    font-size: 70%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Random information del:*/
+
+.RandomInformation {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 9%;
+}
+
+.RandomInformation h3 {
+    font-size: x-large;
+    margin-bottom: 5%;
+}
+
+.RandomContent {
+    margin-left: 15%;
+}
+
+.Picture1, .Picture2 {
+    background-color: #ffffff;
+    width: 245px;
+    height: 125px;
+    border-radius: 8px;
+    border: 4.5px solid #3f83ff;
+}
+
+#Pic1 {
+    margin-left: 6em;
+}
+
+#Pic2 {
+    margin-right: 18em;
+}
+
+.Paragraph1 {
+    display: flex;
+}
+
+.Paragraph1 p {
+    font-size: 90%;
+    flex: 2;
+    max-width: 35%;
+    text-align: justify;
+    padding-left: 4%;
+}
+
+.Paragraph2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Paragraph2 p {
+    font-size: 90%;
+    flex: 1;
+    max-width: 35%;
+    text-align: justify;
+    padding-right: 4%;
+}
+
+/*Inspiring quote: */
+
+.Quote {
+    background-color: #e0e0e0;
+    padding: 4%;
+}
+
+.Quote h3 {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: 0 auto;
+    padding-left: 20%;
+    padding-top: 3%;
+    text-shadow: -5px 4px 4px rgba(0, 0, 0, 0.301);
+    
+}
+
+.Quote p {
+    font-weight: bolder;
+    text-align: end;
+}
+
+.QuoteText {
+    width: 80%;
+}
+
+
+/* Call to action */
+
+
+.CallToAction {
+    display: flex;
+    align-items: center;
+    width: 35em;
+    background-color: #3f83ff;
+    color: #ffffff;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    font-size: 1em;
+    border-radius: 9px;
+    height: 70px;
+}
+
+.ActionText p{
+    font-size: small;
+    margin-top: 0em;
+    padding-bottom: 0,5em;
+    padding-left: 6em;
+}
+
+.ActionText h5{
+    font-size: small;
+    margin-bottom: 0em;
+    padding-left: 6em;
+}
+
+.ActionButton {
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #3f83ff;
+    color: #ffffff;
+    margin-left: 4em;
+    cursor: pointer;
+}
